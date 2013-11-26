@@ -1,0 +1,271 @@
+html {
+	
+font-family: 'Open Sans', sans-serif;
+background-image: url(../img/parchment);
+
+	
+	
+	}
+	
+.wrapper input, 
+.wrapper select, 
+.wrapper textarea {
+   
+        border: 1px solid #9c998f;
+    
+        padding:4px;
+}
+
+	
+.wrapper input:focus, 
+.wrapper select:focus, 
+.wrapper textarea:focus {
+        border: 1px solid #9c998f;
+     
+}
+
+.logo img{
+	
+	width: 210px;
+	
+	
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+	}
+.wrapper {
+/*	background-color: #DE8366;*/
+	width: 90%;
+	min-width: 200px;
+	background-image: url(../img/dark-leather.png);
+	background-repeat: repeat;
+
+
+
+	
+	
+	
+
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: bottom;
+
+
+	
+	box-shadow: 1px 1px 8px 5px rgba(176,173,169,0.5);
+		border-radius: 3px;
+	/*border-color: #e8e2cb;;
+	border-style: solid;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+
+*/
+	}
+
+
+@media screen and (min-width: 700px) {
+	
+.wrapper{
+	
+	width: 70%;
+	}
+}
+
+
+@media screen and (min-width: 920px) {
+	
+.wrapper{
+	
+	width: 50%;
+	max-width: 600px;
+	
+	}
+}
+
+
+.mainform {
+
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+	}
+
+/*
+* {
+	
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	}*/
+h1{
+	padding-top: 40px;
+	
+	}
+h1, h2{
+
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 21px;
+	
+	}
+
+label {
+	color: #f7f1d9;
+	display: block;
+	cursor: pointer;	
+	padding: 0 0 0 10px;
+	font-size: 13px;	
+}
+
+.input-text {
+	font-size: 1rem;
+	
+	background: #E8D3B0;
+	
+	-webkit-box-radius: 2px;
+	-moz-broder-radius: 2px;
+	border-radius: 2px;
+	
+	-moz-box-shadow: 0 -1px 0px #000;
+	-webkit-box-shadow: 0 -1px 0 0px #000;
+	box-shadow: 0 -1px 0 0px #000;
+	
+	border: none;
+
+	dispaly: block;
+
+	margin: 0 4px 15px 10px;
+	height: 25px;
+	width: 90%;
+	min-width: 10px;
+	color: #333;
+	padding: 0 0 0 10px;
+
+	
+	
+	
+	}
+	
+	
+input[type="radio"],
+input[type="checkbox"] {
+	cursor: pointer;
+	
+	}
+
+
+.input-text {
+	
+	/*font-size: 1rem;
+	border: 1px solid #CCC;
+	padding: 0.5em;
+	background-image: linear-gradient(to bottom, #efefef, #fff);
+	border-radius: 2px;
+	width: 100%;*/
+	
+}
+
+/* this means any label that comes after the input */
+input + label {
+	display: inline;
+	
+	}
+
+fieldset {
+	
+		margin: 0 4px 15px 10px;
+}
+	
+	
+
+legend {
+	
+		color: #f7f1d9;
+
+	
+}
+	
+.legendslist {
+	
+
+	width: 100%;
+	text-decoration: none;
+	list-style: none;
+
+	}
+	
+.legendslist li {
+	
+
+	}
+	
+	
+@media screen and (min-width: 560px) {
+	
+	.legendslist {
+		
+		width: 95%;
+		}
+	
+.legendslist li{
+	
+	width: 60%;
+	display: inline;
+
+
+	}
+}
+
+	
+textarea {
+	max-width: 100%;
+	height: 7em;
+	
+	}
+
+#province {
+	
+	background-color: #f7f1d9;
+	margin: 0 4px 15px 10px;
+	
+}
+
+#age {
+	
+		background-color: #f7f1d9;
+	margin: 0 4px 15px 10px;
+	
+	}
+	
+button {
+	text-transform: uppercase;
+	font-size: 1rem;
+	padding-left: 3em;
+	padding-right: 3em;
+	border-radius: 2px;
+	border: 2px solid #76736a;
+	background-image: linear-gradient(to bottom, #dbcdac, #d1c38d);
+	color: #000;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+	}
+	
+	
+.error {
+	
+	color: #9c998f;
+	display: bloc;
+	}
+	
+.input-error {
+	
+	/*border: 3px solid #f33;*/
+	
+	}
